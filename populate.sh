@@ -28,7 +28,7 @@ if [ $? -eq 0 ]; then
     echo "$BASHRC > Successfully removed existing ";
 else 
     echo "$BASHRC > Failed removing existing";
-    echo "$BASHRC >> Does symboling link already exist? Did you remove the file?";
+    echo "$BASHRC >> Does symbolic link already exist? Did you remove the file?";
 fi
 
 echo "$BASHRC > Distributing dotfile...";
