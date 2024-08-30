@@ -8,7 +8,7 @@ LOGDIR="$ROOTDIR/log";
 RMDIR="$ROOTDIR/removed";
 
 # Actual dotfile system and repo directory locations go here
-BASHRC="~/.bashrc";
+BASHRC="$HOME/.bashrc";
 DOTBASHRC="$ROOTDIR/.bashrc";
 
 # Datetime for logging purposes
