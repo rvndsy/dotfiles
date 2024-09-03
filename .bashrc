@@ -18,5 +18,10 @@ export PATH=/home/ricar/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/var/
 export MANPATH=/home/ricar/.local/share/man:$MANPATH
 
 # Open nvim when using vim, vi
-alias vi="nvim"
-alias vim="nvim"
+alias 'vim'='nvim'
+alias 'vi'='nvim'
+alias 'v'='nvim'
+
+# Open anything with xdg-open
+alias 'open'='xdg-open'
+alias 'o'='xdg-open'
