@@ -22,6 +22,15 @@ alias 'vim'='nvim'
 alias 'vi'='nvim'
 alias 'v'='nvim'
 
+# Set default editor to nvim
+export EDITOR=nvim
+
+# Git diff in nvim
+alias vimdiff='nvim -d'
+alias vdif='nvim -d'
+
 # Open anything with xdg-open
 alias 'open'='xdg-open'
 alias 'o'='xdg-open'
+
+
