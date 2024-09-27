@@ -1,7 +1,0 @@
-# For storing populate.sh removed config files
-removed/*
-!removed/.gitkeep
-
-# For storing populate.sh output into logs
-log/*
-!log/.gitkeep
