@@ -1,6 +1,11 @@
 ## Dependencies
 `stow` - to manage symlinking\
 `git`  - to clone and manage this repo
+##### List of packages:
+```
+stow git
+```
+##### Pacman:
 ```
 sudo pacman -S stow git
 ```
