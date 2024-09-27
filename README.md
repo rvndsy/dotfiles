@@ -14,6 +14,6 @@ sudo pacman -S stow git
 git clone https://github.com/probablyalright/dotfiles ~/.dotfiles && cd ~/.dotfiles &&
 stow .
 ```
-1. Clone dotfiles repo to ~/.dotfiles
-2. Change working directory to ~/.dotfiles
+1. Clone dotfiles repo to `~/.dotfiles`
+2. Change working directory to `~/.dotfiles`
 3. Execute stow to symlink config files
