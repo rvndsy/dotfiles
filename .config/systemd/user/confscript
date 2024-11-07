@@ -1,0 +1,7 @@
+#!/bin/bash
+
+sudo systemctl mask plasma-kwin_wayland.service
+sudo systemctl mask plasma-kwin_x11.service
+systemctl mask plasma-kwin_wayland.service
+# systemctl --user enable ./plasma-sway-wm.service
+systemctl --user enable plasma-sway-wm.service

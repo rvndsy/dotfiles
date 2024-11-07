@@ -1,0 +1,11 @@
+[Install]
+WantedBy=plasma-workspace.target
+
+[Unit]
+Description=sway in kde
+Before=plasma-workspace.target
+
+[Service]
+ExecStart=/usr/bin/sway
+Slice=session.slice
+Restart=on-failure
